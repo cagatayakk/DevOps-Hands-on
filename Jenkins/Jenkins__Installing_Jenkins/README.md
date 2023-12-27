@@ -78,7 +78,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins
 - Import a key file from Jenkins-CI to enable installation from the package.
 
 ```bash
-sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 ```
 
 - Enable the EPEL repository for Amazon EC2 instance.
