@@ -91,7 +91,7 @@ ifconfig      # privateip ögrenmek icin kullanilir
 - Go to the Jenkins Master server and test ssh connection.
 
 ```bash
-ssh root@<slave-node-ip-number>
+ssh root@<slave-node-ip-number> # SlaveNodu'u GUI'den eklemeden önce ssh ile o makinaya baglanmazsan known_host dosyasi /var/lib/jenkins/.ssh/ dizininde olusmadigi icin hata veriyor.
 exit
 ```
 
